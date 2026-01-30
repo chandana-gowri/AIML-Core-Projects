@@ -53,5 +53,5 @@ Data cleaning is a critical step in the machine learning pipeline. Proper handli
 ---
 
 ## Author
-**Chandana D A**
+**Chandana Gowri D A**
 
