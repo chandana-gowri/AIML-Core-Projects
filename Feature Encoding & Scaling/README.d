@@ -47,5 +47,3 @@ This task demonstrated the importance of transforming raw categorical text into 
 
 ## Conclusion
 Proper feature encoding and scaling are essential preprocessing steps. The `adult_processed.csv` file is now optimized for training machine learning models without bias from differing feature scales.
-
-
