@@ -1,54 +1,57 @@
-Exploratory Data Analysis (EDA) - Iris Dataset
-Aim
-The aim of this task is to perform Exploratory Data Analysis (EDA) on the classic Iris dataset to analyze feature distributions, correlations, and species separability to determine the most valuable features for classification models.
+# Exploratory Data Analysis (EDA) – Iris Dataset
 
-Dataset Used
-Iris Dataset
+## Aim
+The aim of this task is to perform Exploratory Data Analysis (EDA) on the Iris dataset to analyze feature distributions, correlations, and patterns to determine the best features for classification models.
 
-This dataset contains floral measurements (Sepal Length, Sepal Width, Petal Length, Petal Width) for three different species of Iris flowers. It is a standard dataset used for pattern recognition and classification tasks.
+---
 
-Files in This Folder
+## Dataset Used
+**Iris Dataset**
 
-Iris.csv – The raw dataset used for analysis 
+This dataset contains measurements of iris flowers, including sepal length, sepal width, petal length, and petal width, along with their species classification.
 
+---
 
-Iris_EDA_Notebook.ipynb – Jupyter Notebook containing code, visualizations, and analysis 
+## Files in This Folder
+- **Iris.csv** – Original processed dataset (Id column removed)
+- **Iris_Visual_Insights_Report.pdf** – PDF report summarizing visual insights and conclusions
+- **Iris_EDA_Notebook.ipynb** – Jupyter Notebook containing EDA code and visualizations
 
+---
 
-Iris_Visual_Insights_Report.pdf – Summary report of the key visual findings 
+## Analysis Steps Performed
+- Loaded the dataset using Pandas and inspected data structure
+- Analyzed distribution of numerical features using histograms to identify separation
+- Checked categorical feature balance using count plots
+- Detected outliers using box plots, specifically in sepal width
+- Performed correlation analysis using a heatmap to identify multicollinearity
+- Evaluated feature importance based on visual separation of species
 
-EDA Steps Performed
-Loaded the dataset and removed unnecessary columns (Id) 
+---
 
-Analyzed numerical feature distributions using Histograms 
+## Key Observations
+- Petal length and petal width show clear separation among species, whereas sepal features overlap significantly
+- Iris-setosa is clearly separable from other species using petal features
+- A strong positive correlation exists between petal length and petal width
+- The dataset is clean with no missing values
+- Mild outliers were detected in sepal width but are not severe enough to impact modeling
 
-Checked for class balance using Categorical Count Plots 
+---
 
-Detected outliers using Box Plots 
+## Tools & Technologies Used
+Python, Jupyter Notebook, Pandas, Matplotlib, Seaborn
 
-Analyzed feature relationships using a Correlation Heatmap 
+---
 
-Ranked features based on predictive power 
+## Learning Outcome
+This task helped in understanding how to interpret data distributions, identify multicollinearity, and visually determine which features contribute most to predictive modeling.
 
-Key Observations
+---
 
-Petal Length and Petal Width are the most critical features for distinguishing species.
+## Conclusion
+The EDA confirms that petal measurements dominate predictive power and are the most informative features for classification. The dataset is high-quality and suitable for machine learning models without heavy preprocessing.
 
+---
 
-Iris-setosa is easily separable from the other two species.
-
-Strong multicollinearity exists between Petal Length and Petal Width.
-
-The dataset is clean with no missing values and only mild outliers in Sepal Width.
-
-Tools & Technologies Used
-Python, Jupyter Notebook, Pandas, Matplotlib, Seaborn 
-
-Learning Outcome
-This task helped in understanding how to interpret data distributions, identify relationships between variables, and determine feature importance through visualization techniques.
-
-Conclusion
-The analysis confirms that petal measurements provide the highest predictive power for classification. The dataset requires minimal preprocessing and is highly suitable for machine learning models.
-
-Author
-Chandana Gowri D A
+## Author
+**Chandana Gowri D A**
